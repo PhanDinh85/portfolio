@@ -10,7 +10,7 @@ import postgres from "../assets/postgres.png";
 const testimonial = () => {
   return (
 
-    <div className="  bg-indigo-800 m-20 ssm:flex-col lg:flex-row">
+    <div className=" bg-indigo-800 m-20 ssm:flex-col lg:flex-row" id="technology">
       <div className="grid justify-items-center text-white w-auto">
         <h1 className="text-3xl text-white mt-5 ">Skill</h1>
       </div>

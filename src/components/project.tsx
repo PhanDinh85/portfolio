@@ -7,7 +7,7 @@ import plantImg from '../assets/plant.png';
 const project = () => {
   return (
     <>
-      <div className='bg-indigo-800 m-20 max-w-full'>
+      <div className='bg-indigo-800 m-20 max-w-full' id='projects'>
         <div className='grid justify-items-center m-10'>
           <h1 className='text-3xl text-white mt-10'>Project</h1>
         </div>
@@ -22,9 +22,9 @@ const project = () => {
                 font-semibold'>
                     Book E-Commerce Website
                   </div>
-                  <a href='#'>Subheading</a>
+                  <a href='#'>Spring boot, Angular, MySQL</a>
                   <p className='mt-2 text-slate-500 '>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod officia earum.
+                    Book E-commerce Website: An online bookstore built with Spring Boot, Angular, and MySQL.
                   </p>
                 </div>
                 <div className=' md:shrink-0 p-5 grid justify-center' >
@@ -45,9 +45,9 @@ const project = () => {
                   <div className=' uppercase tracking-wide text-sm to-indigo-500
                 font-semibold'>
                     Chat app real-time                  </div>
-                  <a href='#'>Subheading</a>
+                  <a href='#'>ReactJS & Firebase</a>
                   <p className='mt-2 text-slate-500 '>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod officia earum.
+                    Chat App Real-Time: A real-time chat application using ReactJS and Firebase.
                   </p>
                 </div>
 
@@ -66,9 +66,9 @@ const project = () => {
                 font-semibold'>
                     Portfolio Website
                   </div>
-                  <a href='#'>Subheading</a>
+                  <a href='#'>ReactJS & TailwindCss</a>
                   <p className='mt-2 text-slate-500 '>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod officia earum.
+                    Portfolio Website: A personal portfolio site created with ReactJS and TailwindCSS.
                   </p>
                 </div>
                 <div className=' md:shrink-0 p-5 grid justify-center' >
@@ -88,11 +88,11 @@ const project = () => {
                 <div className='p-8'>
                   <div className=' uppercase tracking-wide text-sm to-indigo-500
                 font-semibold'>
-                    Green-Planet
+                    Donate Planting Tree Website
                   </div>
-                  <a href='#'>Subheading</a>
+                  <a href='#'>Spring boot, ReactJS, MySQL</a>
                   <p className='mt-2 text-slate-500 '>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod officia earum.
+                    Donate Planting Tree Website: A platform for tree donations developed with Spring Boot, ReactJS, and MySQL..
                   </p>
                 </div>
 

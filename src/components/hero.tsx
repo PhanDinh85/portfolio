@@ -1,11 +1,11 @@
 import {BsFacebook, BsTwitter, BsInstagram, BsPinterest} from 'react-icons/bs';
-import HeroPicture from '../assets/boy.png';
+import HeroPicture from '../assets/img_portfolio.png';
 
 const hero = () => {
   return (
     
     <section className=' flex justify-around items-center px-10 py-5 space-x-10
-    lg:flex-row ssm:flex-col ssm: space-y-10 text-white'>
+    lg:flex-row ssm:flex-col ssm: space-y-10 text-white' id='aboutme'>
         <div className='lg:w-1/3 ssm:w-fit'>
         <p className='text-4xl mb-5 text-slate-300'>I'm</p>
         <h1 className='text-6xl'>Phan Võ Định</h1>
